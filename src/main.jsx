@@ -5,7 +5,6 @@ import { Agendamentos } from './Componentes/pages/Agendamentos'
 import { Home } from './Componentes/pages/Home'
 import { Tatuadores } from './Componentes/pages/Tatuadores'
 
-import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
