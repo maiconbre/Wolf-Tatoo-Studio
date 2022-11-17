@@ -1,0 +1,27 @@
+.card{
+    background-color: rgba(53, 52, 52, 0.945);
+}
+.card1 {
+    position: absolute;
+	right: 60px; /* posiciona a 90px para a esquerda */ 
+	top: 150px; /* posiciona a 70px para baixo */
+    color: white;
+}
+
+.card2 {
+    position: absolute;
+	right: 38%; /* posiciona a 90px para a esquerda */ 
+	top: 150px; /* posiciona a 70px para baixo */
+    color: white;
+    
+}
+.card3 {
+    position: absolute;
+	left: 55px; /* posiciona a 90px para a esquerda */ 
+	top: 150px; /* posiciona a 70px para baixo */
+    color: white;
+    
+}
+.buttom1{
+    background-color:;
+}

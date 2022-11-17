@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './studios.css';
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -24,7 +24,7 @@ export const Studios = () =>{
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
+    <div class="card1">
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="/src/Componentes/pages/img/tatuador3.jpeg" width="300" height="200" />
       <Card.Body>
@@ -33,10 +33,11 @@ export const Studios = () =>{
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Orçamento</Button>
+        <div class="buttom1"><Button variant="primary">Orçamento</Button></div>
       </Card.Body>
     </Card>
-
+   </div>
+   <div class="card2">
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="/src/Componentes/pages/img/tatuador2.jpeg" width="300" height="200" />
       <Card.Body>
@@ -48,7 +49,8 @@ export const Studios = () =>{
         <Button variant="primary">Orçamento</Button>
       </Card.Body>
     </Card>
-
+    </div>
+    <div class="card3">
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="/src/Componentes/pages/img/tatuador1.jpeg" width="300" height="200" />
       <Card.Body>
@@ -59,7 +61,7 @@ export const Studios = () =>{
         </Card.Text>
         <Button variant="primary">Orçamento</Button>
       </Card.Body>
-    </Card>
+    </Card></div>
     </div>
     
     
