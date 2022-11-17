@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
-import { Agendamentos } from './Componentes/pages/Agendamento'
+import { Agendamentos } from './Componentes/pages/Agendamentos'
 import { Equipe } from './Componentes/pages/Equipe'
 import { Home } from './Componentes/pages/Home'
 import { Studios } from './Componentes/pages/Studios'
