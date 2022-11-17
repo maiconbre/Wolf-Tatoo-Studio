@@ -20,4 +20,6 @@ export const Home = () =>{
       </Container>
     </Navbar>
     )
+   
+    
 }
