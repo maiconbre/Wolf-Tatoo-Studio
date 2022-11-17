@@ -26,7 +26,7 @@ export const Studios = () =>{
     </Navbar>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="/src/Componentes/pages/tatuador3.jpeg" width="300" height="200" />
+      <Card.Img variant="top" src="/src/Componentes/pages/img/tatuador3.jpeg" width="300" height="200" />
       <Card.Body>
         <Card.Title>Leonardo</Card.Title>
         <Card.Text>
@@ -38,7 +38,7 @@ export const Studios = () =>{
     </Card>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="/src/Componentes/pages/tatuador2.jpeg" width="300" height="200" />
+      <Card.Img variant="top" src="/src/Componentes/pages/img/tatuador2.jpeg" width="300" height="200" />
       <Card.Body>
         <Card.Title>Bruno</Card.Title>
         <Card.Text>
@@ -50,7 +50,7 @@ export const Studios = () =>{
     </Card>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="/src/Componentes/pages/tatuador1.jpeg" width="300" height="200" />
+      <Card.Img variant="top" src="/src/Componentes/pages/img/tatuador1.jpeg" width="300" height="200" />
       <Card.Body>
         <Card.Title>Gabi</Card.Title>
         <Card.Text>
