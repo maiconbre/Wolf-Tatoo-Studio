@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbara from '../../layout/Navbar/Navbara'
 import Footer from '../../layout/Footer/Footer';

@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 
 export const Studios = () =>{
     return (
+      <div>
         <div>
           <Navbara />
         </div>
