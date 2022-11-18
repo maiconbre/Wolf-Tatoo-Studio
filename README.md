@@ -20,6 +20,7 @@ $ cd Wolf-Tattoo-Studio
 # Instale as dependências
 $ npm install reactstrap react react-dom
 $ npm install react-router-dom@6
+$ npm i mdb-react-ui-kit
 
 # Execute a aplicação 
 $ npm run dev
