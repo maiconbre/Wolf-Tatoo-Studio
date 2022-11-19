@@ -20,8 +20,6 @@ export const Equipe = () => {
             <Card.Title>Kezia</Card.Title>
             <Card.Text>
               <i>Gestora de Enganjamento</i><br></br>
-              Garantir que o grupo está trabalhando bem e que todos estão cumprindo
-              suas funções.
 
             </Card.Text>
             <div class="buttom1"><Button variant="primary">Contato</Button></div>
@@ -35,7 +33,6 @@ export const Equipe = () => {
             <Card.Title>Maicon</Card.Title>
             <Card.Text>
               <i> Co-Facilitador</i><br></br>
-              Direciona as atividades nos grupos e as ações para o projeto.
             </Card.Text>
             <Button variant="primary">Contato</Button>
           </Card.Body>
@@ -48,7 +45,6 @@ export const Equipe = () => {
             <Card.Title>Tamires</Card.Title>
             <Card.Text>
               <i>Colaboradora l</i> <br></br>
-              Garantir o cumprimento das funções e ações designadas.
             </Card.Text>
             <Button variant="primary">Contato</Button>
           </Card.Body>
@@ -60,7 +56,6 @@ export const Equipe = () => {
             <Card.Title><i>Bernardo</i></Card.Title>
             <Card.Text>
               <i>Gestora de Conhecimento</i><br></br>
-              Registra e garante a documentação de todo o progresso do grupo.
             </Card.Text>
             <Button variant="primary">Contato</Button>
           </Card.Body>
@@ -72,7 +67,6 @@ export const Equipe = () => {
             <Card.Title><i>Grazi</i></Card.Title>
             <Card.Text>
               Colaboradora ll<br></br>
-              Garantir o cumprimento das funções e ações designadas.
             </Card.Text>
             <Button variant="primary">Contato</Button>
           </Card.Body>
