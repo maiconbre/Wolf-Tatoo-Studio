@@ -5,15 +5,15 @@ import Inicio from '../../layout/Inicio/Inicio'
 import Mostruario from '../../layout/Mostruario/Mostruario'
 import '../../Style/Site.css'
 
-export const Home = () =>{
+export const Home = () => {
     return (
-       <div className='fundo'> 
-        <Navbara />
-        <Inicio />
-        <Mostruario />
-        <Footer />
+        <div className='fundo'>
+            <Navbara />
+            <Inicio />
+            <Mostruario />
+            <Footer />
         </div>
     )
-   
-    
+
+
 }

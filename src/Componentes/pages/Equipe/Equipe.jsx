@@ -11,7 +11,7 @@ export const Equipe = () => {
   return (
     <div>
       <Navbara />
-      
+
       <div class="card1">
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src="/src/Componentes/pages/img/kezia.jfif" width="300" height="200" />
@@ -19,7 +19,6 @@ export const Equipe = () => {
             <Card.Title>Kezia</Card.Title>
             <Card.Text>
               <i>Gestora de Enganjamento</i><br></br>
-
             </Card.Text>
             <div class="buttom1"><Button variant="primary">Contato</Button></div>
           </Card.Body>
@@ -69,10 +68,8 @@ export const Equipe = () => {
             </Card.Text>
             <Button variant="primary">Contato</Button>
           </Card.Body>
-        </Card></div>
-      
-      
-      
+        </Card>
+      </div>
       <Footer />
     </div>
 
