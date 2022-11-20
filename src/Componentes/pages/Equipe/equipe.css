@@ -1,43 +1,9 @@
 .card{
-    background-color: rgba(53, 52, 52, 0.945);
+    background-color: rgba(160, 160, 160, 0.945);
+    margin-bottom: 100px;
+    margin-top: 150px;
 }
-/*----Kezia------*/
-.card1 {
-    position: absolute;
-	right: 05px; /* posiciona a 90px para a esquerda */ 
-	top: 100px; /* posiciona a 70px para baixo */
-    color: white;
+.cards{
+    display: flex;
 }
-/*----Maicon------*/
-.card2 {
-    position: absolute;
-	left: 51%; /* posiciona a 90px para a esquerda */ 
-	top: 100px; /* posiciona a 70px para baixo */
-    color: white;
-    
-}
-/*----tamires------*/
-.card3 {
-    position: absolute;
-	left: 55%; /* posiciona a 90px para a esquerda */ 
-	top: 100px; /* posiciona a 70px para baixo */
-    color: white;
-    
-}
-/*----Bernardo------*/
-.card4 {
-    position: absolute;
-    
-	right: 51%; /* posiciona a 90px para a esquerda */ 
-	top: 150px; /* posiciona a 70px para baixo */
-    color: white;
-    
-}
-/*----Grazi------*/
-.card5 {
-    position: absolute;
-	left: 4%; /* posiciona a 90px para a esquerda */ 
-	top: 560px; /* posiciona a 70px para baixo */
-    color: white;
-    
-}
+
