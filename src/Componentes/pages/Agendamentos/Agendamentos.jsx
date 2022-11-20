@@ -7,9 +7,9 @@ export const Agendamentos = () => {
     <div>
 
       <Navbara />
-     <Forms />
-      <Footer/>
-    
+      <Forms />
+      <Footer />
+
     </div>
 
 

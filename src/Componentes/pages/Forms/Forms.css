@@ -1,9 +1,12 @@
 .Name {
     align-items: center;
     text-align: center;
-  ;
-  
-    
+ }
+
+ form {
+   margin-top: 150px;
+   margin-bottom: 100px;
+   color: #FF004C;
  }
 
  .Number{

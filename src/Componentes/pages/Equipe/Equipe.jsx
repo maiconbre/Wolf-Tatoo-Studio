@@ -71,9 +71,6 @@ export const Equipe = () => {
           </Card>
         </div>
       </div>
-
-
-
       <Footer />
     </div>
 
