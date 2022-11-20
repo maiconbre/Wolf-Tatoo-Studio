@@ -19,9 +19,9 @@ function Navbara() {
           </div>
           {/* Navbar on small screens */}
           <div id='navDemo' className='w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large'>
-            < Link to='#about' className='w3-bar-item w3-button w3-padding-large' >Home</Link>
-            < Link to='#games' className='w3-bar-item w3-button w3-padding-large' >Studios</Link>
-            < Link to='#shop' className='w3-bar-item w3-button w3-padding-large' >Agendamento</Link>
+            < Link to='/' className='w3-bar-item w3-button w3-padding-large' >Home</Link>
+            < Link to='/studios' className='w3-bar-item w3-button w3-padding-large' >Studios</Link>
+            < Link to='/agendamentos' className='w3-bar-item w3-button w3-padding-large' >Agendamento</Link>
             < Link to='/equipe' className='w3-bar-item w3-button w3-padding-large' >Sobre</Link>
 
           </div>
