@@ -1,51 +1,33 @@
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import "@fortawesome/fontawesome-free/css/all.min.css";
 import React from 'react';
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBIcon,
-  MDBBtn
-} from 'mdb-react-ui-kit';
+import '../../Style/Site.css'
 
-export default function Footer() {
-  return (
-    <MDBFooter className='bg-dark text-center text-white fixed-bottom'>
-      <MDBContainer className='p-4 pb-0'>
-        <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='facebook-f' />
-          </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='twitter' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='github' />
-          </MDBBtn>
-        </section>
-      </MDBContainer>
-
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
-        <a className='text-white' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
-      </div>
-    </MDBFooter>
-  );
+const Footer = props => {
+    return (
+        <div className='footer'>
+            <h2 className='title'>Entre em contato</h2>
+            <div className='contact' id='contact'>
+                <div className='contact-list contact-address'  >
+                    <h5><i className='fa fa-map-marker w3-xlarge w3-text-light-grey'></i> Endereço</h5>
+                    <p>Akersgata 12, Campo grande, Rio de Janeiro </p>
+                    <p>Bogstadveien 34, Bangu, Rio de Janeiro </p>
+                    <p>Karl Johans gate 1, Realengo, Rio de Janeiro </p>
+                </div>
+                <div className='contact-list'>
+                    <h5><i className='fa fa-envelope w3-xlarge w3-text-light-grey'></i> Receba desconto por Email</h5>
+                    <div className='email-contact'>
+                        <input placeholder='Email' type='email' />
+                        <button className='w3-btn w3-red w3-round ' >Inscreva-se</button>
+                    </div>
+                </div>
+                <div className='contact-list' >
+                    <h5><i className='fa fa-phone w3-xlarge w3-text-light-grey'></i> Telefone</h5>
+                    <p>  (21)9857-6781</p>
+                    <p>(21)9144-2591</p>
+                </div>
+            </div>
+        </div>
+    )
 }
+
+export default Footer
