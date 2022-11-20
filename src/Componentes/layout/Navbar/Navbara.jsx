@@ -9,12 +9,12 @@ function Navbara() {
         <div className='w3-top' id='home'>
           <div className='w3-bar  w3-card w3-left-align w3-large heeder-large-screen' >
             <a className='w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large ' title='Toggle Navigation Menu'><i className='fa fa-bars'></i></a>
-            < Link to='/' className='w3-bar-item w3-button w3-padding-large  w3-hover-black'>Wolf Studio Tattoo</Link>
+            <Link to='/' className='w3-bar-item w3-button w3-padding-large  w3-hover-black'>Wolf Studio Tattoo</Link>
             <div >
-              < Link to='/' className='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black' >Home</Link>
+              <Link to='/' className='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black' >Home</Link>
               <Link to='/studios' className='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black'> Studios</Link>
-              < Link to='/agendamentos' className='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black'>Agendamento</Link>
-              < Link to='/equipe' className='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black'>Sobre</Link>
+              <Link to='/agendamentos' className='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black'>Agendamento</Link>
+              <Link to='/equipe' className='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black'>Sobre</Link>
             </div>
           </div>
           {/* Navbar on small screens */}

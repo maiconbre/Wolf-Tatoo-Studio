@@ -5,7 +5,7 @@ import '../../Style/Site.css'
 const Mostruario = props => {
     return (
         <main>
-            <h2 className='title' id='artes'>Portifólio</h2>
+            <h2 className='title' id='artes'>Especialidades</h2>
             <div className='games'>
                 <div className='game-list'>
                     <img src='https://www.guiadasemana.com.br/contentFiles/image/2018/08/FEA/galeria/37265_w840h525_1533590127old-school.jpg' alt='old school' />

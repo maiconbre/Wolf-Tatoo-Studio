@@ -5,7 +5,7 @@ import '../../Style/Site.css'
 const Footer = props => {
   return (
     <div className='footer'>
-      <h2 className='title'>Entre em contato</h2>
+      <h2 className='title'>Faça seu orçamento</h2>
       <div className='contact' id='contact'>
         <div className='contact-list contact-address'  >
           <h5><i className='fa fa-map-marker w3-xlarge w3-text-light-grey'></i> Endereço</h5>

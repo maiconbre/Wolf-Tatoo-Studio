@@ -4,7 +4,7 @@ import '../../Style/Site.css';
 
 function Tatuador1() {
     return (
-        <div>
+        <div className='tatuador'>
             <div className='store' id='shop'>
                 <br />
                 <h2 className='title'>Joao Marcos</h2>
@@ -19,6 +19,10 @@ function Tatuador1() {
                             <small>Pontilhismo Realismo Black Work Old School</small>
                         </div>
                     </div>
+                </div>
+                <div className='bio'>
+                    <h1>ETERNIZE SUAS IDEIAS</h1>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit quo. Officia nisi corrupti iste asperiores accusamus quisquam quod perspiciatis vitae? Esse eum molestiae ab quasi omnis quidem officia eaque.</h4>
                 </div>
             </div>
             <main>

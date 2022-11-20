@@ -1,14 +1,19 @@
-/*CSS variables section*/
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Rubik+Glitch&display=swap');
+
+
+
+
+
 body {
     background-color: rgba(0, 0, 21, 1);
 
 }
 
-/*Extra Large screens - Extra large desktops*/
-
-.Fundo{
-    background-color: #000015 !important;
+header {
+    font-family: 'Rubik Glitch';
+    
 }
+
 .heeder-large-screen {
     display: flex !important;
     justify-content: space-evenly !important;
@@ -32,20 +37,11 @@ body {
     margin-top: 50px
 }
 
-.hero {
-    height: 650px;
-    background-image: url("https://source.unsplash.com/HVYepJYeHdQ");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #000015;
 
-
-}
 
 .hero-description {
     height: 650px;
-    background-color: rgba(0, 0, 21, .7);
+    background-color: rgba(0, 0, 21, 0.336);
     display: flex;
 }
 
@@ -62,15 +58,18 @@ body {
     color: white;
     width: 50%;
 }
+.w3-margin-top{
+    color:#FF004C;
+}
 
 .hero-title {
     /* padding-top:80px; */
-    font-weight: 800;
     text-transform: uppercase;
     font-size: 80px;
     color: #FF004C;
-
     text-align: center;
+    font-family: 'Rubik Glitch';
+    text-shadow: 1px 2px 15px black;
 
 }
 .footer{
@@ -203,6 +202,12 @@ h3 {
     flex-direction: column;
 
 }
+h2.title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Reggae One';
+    text-shadow: 1px 1px 30px #ff004ca9;
+}
 
 h2.badge{
     background-color: #FF004C;
@@ -212,6 +217,11 @@ h2.badge{
 
 h4 {
     font-weight: 700;
+}
+.bio{
+    color: aliceblue;
+    margin: 50px 150px 20px 150px;
+    text-align: center;
 }
 
 .event-hero {
@@ -323,13 +333,13 @@ html {
 /*Large screens - Desktop*/
 @media screen and (max-width: 1500px) {
     .hero {
-        height: 550px !important;
+        height: 750px !important;
         ;
         background-image: url("https://raw.githubusercontent.com/ellenmariadev/tattoo-studio/main/src/images/home-bg.jpg");
     }
 
     .hero-description {
-        height: 550px
+        height: 750px
     }
 
     .hero-title {
@@ -351,19 +361,20 @@ html {
     .heeder-large-screen {
         display: block !important;
     }
-
+    
     header a {
         font-size: 14px;
+        transition: 0.5s;
     }
 
     .hero {
         height: 400px !important;
-        background-image: url("https://source.unsplash.com/HVYepJYeHdQ/480x300");
+        background-image: url("https://raw.githubusercontent.com/ellenmariadev/tattoo-studio/main/src/images/home-bg.jpg");
     }
 
     .hero-description {
         height: 400px;
-        background-color: rgba(0, 0, 21, .7);
+        background-color: rgba(0, 0, 21, 0.336);
 
 
     }
@@ -446,12 +457,12 @@ html {
 
     .hero {
         height: 450px !important;
-        background-image: url("https://source.unsplash.com/HVYepJYeHdQ/480x300");
+        background-image: url("https://raw.githubusercontent.com/ellenmariadev/tattoo-studio/main/src/images/home-bg.jpg");
     }
 
     .hero-description {
         height: 450px;
-        background-color: rgba(0, 0, 21, .7);
+        background-color: rgba(0, 0, 21, 0.336);
 
     }
 
