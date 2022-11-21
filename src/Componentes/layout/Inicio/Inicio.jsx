@@ -11,8 +11,8 @@ const Inicio = props => {
                         <div className='hero-text'>
                             <h1 className='hero-title'>Eternize suas ideias</h1>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, impedit quo. Officia nisi corrupti iste asperiores accusamus quisquam quod perspiciatis vitae? Esse eum molestiae ab quasi omnis quidem officia eaque.
-                            </p>
+                            Wolf Tatoo Studio nasceu no Rio de Janeiro, com a proposta de trazer um ambiente mais inclusivo, diverso e acolhedor. São profissionais de áreas de distintas que se reuniram por um só propósito. O amor pela arte, pela expressão e pelo mundo das tatuagens.</p> 
+                            
                             <span className='w3-text-white social'>
                                 <p >Sigam nossas midias sociais</p>
                                 <div className='w3-margin-top'>
