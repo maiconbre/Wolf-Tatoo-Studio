@@ -1,45 +1,17 @@
-.Name {
-    align-items: center;
-    text-align: center;
- }
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Rubik+Glitch&display=swap');
 
- form {
-   margin-top: 150px;
-   margin-bottom: 100px;
+.forms_container h1{
+   display: flex !important;
+   justify-content: space-evenly !important;
    color: #FF004C;
- }
-
- .Number{
-    align-items: center;
-    text-align: center;
-   
-  
- }
- .Date{
-    align-items: center;
-    text-align: center;
-   
-   
-  
- }
-
- .tatuador{
-    align-items: center;
-    text-align: center;
- 
-  
- }
- .Estilo-Tattoo{
-    align-items: center;
-    text-align: center;
-    
- }
- .enviar{
-    align-items: center;
-    text-align: center;
-   
-  
- }
- 
-
-  
+   font-size: 50px !important;
+   background-color: #000015;
+   height: 50px;
+   font-family: 'Rubik Glitch';
+}
+.forms_container label{
+   color: #FF004C;
+   font-family: 'Rubik Glitch';
+   display: flex !important;
+   justify-content:first baseline !important;
+}

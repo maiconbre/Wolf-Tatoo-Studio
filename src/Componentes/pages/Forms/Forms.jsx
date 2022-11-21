@@ -1,117 +1,45 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
-import { Form } from 'react-router-dom';
-import './Forms.css';
-
-
-function Forms() {
-  const [name, setName] = useState('');
-  const [age, setAge] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [confPassword, setConfPassword] = useState('');
-
-  // function to update state of name with 
-  // value enter by user in form
-  const handleChange = (e) => {
-    setName(e.target.value);
-  }
-  // function to update state of age with value 
-  // enter by user in form
-  const handleAgeChange = (e) => {
-    setAge(e.target.value);
-  }
-  // function to update state of email with value
-  // enter by user in form
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  }
-  // function to update state of password with 
-  // value enter by user in form
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  }
-  // function to update state of confirm password 
-  // with value enter by user in form
-  const handleConfPasswordChange = (e) => {
-    setConfPassword(e.target.value);
-  }
-  // below function will be called when user 
-  // click on submit button .
-  const handleSubmit = (e) => {
-    if (password != confPassword) {
-      // if 'password' and 'confirm password'
-      // does not match.
-      alert("password Not Match");
-    }
-    else {
-      // display alert box with user 
-      // 'name' and 'email' deatils .
-      alert('A form was submitted with Name :"' + name +
-        '" ,Age :"' + age + '" and Email :"' + email + '"');
-    }
-    e.preventDefault();
-
-  }
-  return (
-    <div>
-
-      <form onSubmit={(e) => { handleSubmit(e) }}>
-        {/*when user submit the form , handleSubmit() 
-        function will be called .*/}
-        <div className="Name">
-          <label >
-            Name:
-          </label><br />
-          <input type="text" value={name} required onChange={(e) => { handleChange(e) }} /><br />
-        </div>
-        { /*when user write in name input box , handleChange()
-              function will be called. */}
-        <div className="Number">
-          <label >
-            Number:
-          </label><br />
-          <input type="tel" value={age} required onChange={(e) => { handleAgeChange(e) }} /><br />
-        </div>
-        { /*when user write in age input box , handleAgeChange()
-               function will be called. */}
-        <div className="Date">
+ import styles from '../Forms/Forms.css'
+ 
+ function Forms() {
+  return(
+    <div className='forms_container'>
+      <h1>Faça seu agendamento</h1>
+      <form>
+        <div>
           <label>
-            Data :
-          </label><br />
-          <input type="date" value={email} required onChange={(e) => { handleEmailChange(e) }} /><br />
+            Nome
+          </label>
+        <input type="text" placeholder='Insira seu nome' />
         </div>
-        {/* when user write in email input box , handleEmailChange() 
-              function will be called.*/}
-        <div className="tatuador">
+        <div>
           <label>
-            Tatuador:
-          </label><br />
-         <select name="tatuador_id">
-          <option disabled>Selecione o tatuador</option>
-          <option value="1">Brenda Palácios</option>
-          <option value="2">Benicio Braga </option>
-          <option value="3">fernando Torres </option>
-          <option value="4">Marília Fernandes </option>
-         </select>
+            Telefone de contato
+          </label>
+        <input type="tel" placeholder='Insira seu numero' />
         </div>
-        {/* when user write in password input box ,
-                  handlePasswordChange() function will be called.*/}
-        <div className="Estilo-Tattoo">
+        <div>
           <label>
-            Estilo da Tatuagem:
-          </label><br />
-          <input type="text" value={confPassword} required onChange={(e) => { handleConfPasswordChange(e) }} /><br />
+          Data da Sessão
+          </label>
+        <input type="date" placeholder='Data' />
         </div>
-        {/* when user write in confirm password  input box ,
-                    handleConfPasswordChange() function will be called.*/}
-        <div className="enviar">
-          <input type="submit" value="Submit" />
+        <div>
+          <label>
+            Tatuador
+            </label>
+        <select name="category_id">
+          <option>Selecione o tatuador</option>
+          <option id='1'>Brenda Palácios </option>
+          <option id='2'>Benicio Braga</option>
+          <option id='3'>Fernando Torres</option>
+        </select>
+        </div>
+        <div>
+        <input type="submit" value="Enviar agendamento"></input>
         </div>
       </form>
     </div>
+  )
+ }
 
-  );
-}
-
-export default Forms;
+ export default Forms;
