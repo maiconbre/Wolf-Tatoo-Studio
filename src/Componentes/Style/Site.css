@@ -11,7 +11,7 @@ body {
 
 header {
     font-family: 'Rubik Glitch';
-    
+
 }
 
 .heeder-large-screen {
@@ -50,7 +50,7 @@ header {
     margin: auto !important;
     display: flex;
     flex-wrap: wrap;
-
+    font-family: 'Reggae One';
 }
 
 
@@ -58,10 +58,15 @@ header {
     color: white;
     width: 50%;
 }
-.w3-margin-top{
-    color:#FF004C;
-}
 
+.w3-margin-top {
+    color: #FF004C;
+    font-size: 25px;
+    
+}
+i{
+    margin-inline: 3px;
+}
 .hero-title {
     /* padding-top:80px; */
     text-transform: uppercase;
@@ -72,18 +77,21 @@ header {
     text-shadow: 1px 2px 15px black;
 
 }
-.footer{
+
+.footer {
     background-color: #000015;
 }
+
 .fa {
-    text-decoration:none;
-    
+    text-decoration: none;
+
 }
+
 .social {
     width: 100%;
 }
 
-.icons {
+Class .icons {
     font-size: 20px;
     letter-spacing: 5px;
 
@@ -99,7 +107,7 @@ main {
 .title {
     color: white;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
 
@@ -125,10 +133,12 @@ h3 {
     /* background-color:	rgba(0, 0, 47,0.3); */
     justify-content: space-evenly;
 }
+
 .game-list h3 {
     font-size: 125%;
     margin-top: 25px;
 }
+
 .game-list {
     margin: 53px;
     padding: 25px;
@@ -186,7 +196,7 @@ h3 {
     overflow: hidden;
     border-top: none;
 
-    
+
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-bottom: 15px solid #FF004C;
@@ -202,14 +212,15 @@ h3 {
     flex-direction: column;
 
 }
-h2.title{
+
+h2.title {
     margin-top: 50px;
     margin-bottom: 30px;
     font-family: 'Reggae One';
     text-shadow: 1px 1px 30px #ff004ca9;
 }
 
-h2.badge{
+h2.badge {
     background-color: #FF004C;
     color: #000015;
     padding: 10px;
@@ -218,7 +229,8 @@ h2.badge{
 h4 {
     font-weight: 700;
 }
-.bio{
+
+.bio {
     color: aliceblue;
     margin: 50px 150px 20px 150px;
     text-align: center;
@@ -274,14 +286,17 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 button {
     width: 120px;
     height: 35px;
-    padding:3px 10px !important
+    padding: 3px 10px !important
 }
+
 input {
     margin: 8px 0px !important;
 }
+
 .contact-list {
     margin-top: 15px !important;
     color: white;
@@ -361,7 +376,7 @@ html {
     .heeder-large-screen {
         display: block !important;
     }
-    
+
     header a {
         font-size: 14px;
         transition: 0.5s;
@@ -380,6 +395,7 @@ html {
     }
 
     .hero-title {
+        margin-top: 50px;
         font-size: 35px;
         ;
 
@@ -387,7 +403,6 @@ html {
 
     .hero-text p {
         width: 80%;
-        ;
         font-size: 13px;
     }
 

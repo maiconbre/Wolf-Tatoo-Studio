@@ -10,25 +10,39 @@ export const Equipe = () => {
   return (
     <div>
       <Navbara />
+      <div className='logo'>
+        <img src="https://raw.githubusercontent.com/maiconbre/Wolf-Tatoo-Studio/8e834a70c3176ba2601437dfa3e6e38b00a6428d/src/Componentes/pages/img/logo%20retangular%20fundo%20preto.svg" alt="logo" />
+      </div>
+      <div className='inicio'><p><i>
+        “Nossos artistas são diferenciados, todos eles são de lugares diferentes, mundos diferentes, mas encontraram no nosso espaço um lugar que é para todos, em que o talento,
+        a técnica e a liberdade de expressão são exaltados ao máximo atendendo todo tipo de gente.</i></p>
+        <br />
+        <p>
+          Começou como um pequeno estúdio voltado para a área estética em tatuar regiões do corpo que antes traziam sofrimento para as pessoas
+          , uma cicatriz pode se transformar numa rosa, num símbolo de força, isso é com o cliente! Mas eles saem felizes, satisfeitos e com a autoestima lá em cima.
+          <br />
+          <br />Logo, outros tatuadores se identificaram com nosso propósito e hoje temos orgulho de dizer que somos referência em técnicas diferenciadas, mas também fazemos nosso clientes felizes com o tradicional.
+          Não importa o que você está procurando, certamente encontrará aqui!
+        </p></div>
       <div className='cards'>
-        <div class="card1">
+        <div className="card1">
           <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/kezia.jfif" width="300" height="200" />
-            <Card.Body><div class="texto">
+            <Card.Body><div className="texto">
               <Card.Title><strong>Kesia</strong></Card.Title>
               <Card.Text>
                 <i>Gestora de Enganjamento</i><br></br>
-                
+
 
               </Card.Text></div>
-              <div class="buttom1"><Button variant="primary">Contato</Button></div>
+              <div className="buttom1"><Button variant="primary">Contato</Button></div>
             </Card.Body>
           </Card>
         </div>
-        <div class="card2">
+        <div className="card2">
           <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/maicon.jfif" width="300" height="200" />
-            <Card.Body><div class="texto2">
+            <Card.Body><div className="texto2">
               <Card.Title>Maicon</Card.Title>
               <Card.Text>
                 <i> Co-Facilitador</i><br></br>
@@ -37,10 +51,10 @@ export const Equipe = () => {
             </Card.Body>
           </Card>
         </div>
-        <div class="card3">
+        <div className="card3">
           <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/tamires.jfif" width="300" height="200" />
-            <Card.Body><div class="texto3">
+            <Card.Body><div className="texto3">
               <Card.Title>Tamires</Card.Title>
               <Card.Text>
                 <i>Colaboradora l</i> <br></br>
@@ -48,10 +62,10 @@ export const Equipe = () => {
               <Button variant="primary">Contato</Button>
             </Card.Body>
           </Card></div>
-        <div class="card4">
+        <div className="card4">
           <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/bernardo.jfif" width="300" height="200" />
-            <Card.Body><div class="texto4">
+            <Card.Body><div className="texto4">
               <Card.Title><i>Bernardo</i></Card.Title>
               <Card.Text>
                 <i>Gestora de Conhecimento</i><br></br>
@@ -59,10 +73,10 @@ export const Equipe = () => {
               <Button variant="primary">Contato</Button>
             </Card.Body>
           </Card></div>
-        <div class="card5">
+        <div className="card5">
           <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/grazi.jpg" width="300" height="200" />
-            <Card.Body><div class="texto5">
+            <Card.Body><div className="texto5">
               <Card.Title><i>Grazi</i></Card.Title>
               <Card.Text>
                 Colaboradora ll<br></br>
