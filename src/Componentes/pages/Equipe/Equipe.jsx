@@ -15,7 +15,7 @@ export const Equipe = () => {
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/kezia.jfif" width="300" height="200" />
             <Card.Body>
-              <Card.Title>Kezia</Card.Title>
+              <Card.Title>Kesia</Card.Title>
               <Card.Text>
                 <i>Gestora de Enganjamento</i><br></br>
 
