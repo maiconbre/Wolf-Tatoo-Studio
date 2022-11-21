@@ -66,7 +66,12 @@ function Tatuador1() {
                         </div>
                         <div className='bio'>
                     <h1>ETERNIZE SUAS IDEIAS</h1>
-                    <h4>Bruno sempre demonstrou habilidades com arte e apreço por tatuagens, fez sua primeira tattoo aos 18 anos, desde então seu interesse por este universo cresceu cada vez mais. Com ideias e princípios underground e alternativas, foi conquistando seu espaço com seu estilo próprio de tatuagens, sendo elas maori, aquarela, sem contorno.</h4>
+                    <h4>Historiador por formação, Bruno descobriu na tatuagem uma forma de eternizar e  por em prática todo o seu amor por história. 
+                        Começou com alguns desenhos simples, rabiscos e logo descobriu que realmente levava jeito pra coisa! Especialista em tatuagens étnicas, domina os mais variados
+                        estilos como Maori, Oriental e tem um amplo conhecimento de várias culturas. 
+                        "Muitas pessoas se tatuam buscando significados ou eternizar momentos para o futuro. A tatuagem está presente na história da humanidade
+                        como forma de expressão, e eu percebi que havia um nicho de pessoas que queria se conectar mais com sua ancestralidade". 
+                        Com ideias e princípios underground e alternativas, foi conquistando seu espaço com seu estilo próprio de tatuagens, sendo elas maori, aquarela, sem contorno.</h4>
                 </div>
                 <h2 className='title' id='artes'>Portifólio</h2>
                 <div className='games'>
