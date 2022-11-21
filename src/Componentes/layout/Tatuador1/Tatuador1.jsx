@@ -24,7 +24,7 @@ function Tatuador1() {
                     <h1>ETERNIZE SUAS IDEIAS</h1>
                     <h4>João é carioca, formado em desing. Desde criança era apaixonado por tatuagem, principalmente pelas várias possibilidades de pigmentação e cores. 
                         Pela falta de referências decidiu se especializar em trabalhos em pele negra trazendo um ambiente mais inclusivo, e elevando a autoestima das pessoas 
-                        que encontram na Wolf Tatto Studio um ambiente acolhedor para todos. 
+                        que encontram na Wolf Tattoo Studio um ambiente acolhedor para todos. 
                         É especialista há 15 anos em realismo, blackWork e old school. Ele iniciou sua carreira artística em 2001, quando cursou desenho artístico e aerografia. Esse foi o start para que em alguns anos mais tarde entrase para o universo das tatuagens </h4>
                 </div>
             </div>
@@ -71,7 +71,7 @@ function Tatuador1() {
                     <h1>ETERNIZE SUAS IDEIAS</h1>
                     <h4>Historiador por formação, Bruno descobriu na tatuagem uma forma de eternizar e  por em prática todo o seu amor por história. 
                         Começou com alguns desenhos simples, rabiscos e logo descobriu que realmente levava jeito pra coisa! Especialista em tatuagens étnicas, domina os mais variados
-                        estilos como Maori, Oriental e tem um amplo conhecimento de várias culturas. 
+                        estilos como Maori, Oriental e tem um amplo conhecimento de várias culturas.
                         "Muitas pessoas se tatuam buscando significados ou eternizar momentos para o futuro. A tatuagem está presente na história da humanidade
                         como forma de expressão, e eu percebi que havia um nicho de pessoas que queria se conectar mais com sua ancestralidade". 
                         Com ideias e princípios underground e alternativas, foi conquistando seu espaço com seu estilo próprio de tatuagens, sendo elas maori, aquarela, sem contorno.</h4>
