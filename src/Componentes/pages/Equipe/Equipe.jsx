@@ -12,7 +12,7 @@ export const Equipe = () => {
       <Navbara />
       <div className='cards'>
         <div class="card1">
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/kezia.jfif" width="300" height="200" />
             <Card.Body>
               <Card.Title>Kezia</Card.Title>
@@ -25,7 +25,7 @@ export const Equipe = () => {
           </Card>
         </div>
         <div class="card2">
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/maicon.jfif" width="300" height="200" />
             <Card.Body>
               <Card.Title>Maicon</Card.Title>
@@ -37,7 +37,7 @@ export const Equipe = () => {
           </Card>
         </div>
         <div class="card3">
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/tamires.jfif" width="300" height="200" />
             <Card.Body>
               <Card.Title>Tamires</Card.Title>
@@ -48,7 +48,7 @@ export const Equipe = () => {
             </Card.Body>
           </Card></div>
         <div class="card4">
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/bernardo.jfif" width="300" height="200" />
             <Card.Body>
               <Card.Title><i>Bernardo</i></Card.Title>
@@ -59,7 +59,7 @@ export const Equipe = () => {
             </Card.Body>
           </Card></div>
         <div class="card5">
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/grazi.jpg" width="300" height="200" />
             <Card.Body>
               <Card.Title><i>Grazi</i></Card.Title>
