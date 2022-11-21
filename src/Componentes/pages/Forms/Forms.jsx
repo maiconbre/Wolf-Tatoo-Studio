@@ -87,7 +87,13 @@ function Forms() {
           <label>
             Tatuador:
           </label><br />
-          <input type="text" value={password} required onChange={(e) => { handlePasswordChange(e) }} /><br />
+         <select name="tatuador_id">
+          <option disabled>Selecione o tatuador</option>
+          <option value="1">Brenda Palácios</option>
+          <option value="2">Benicio Braga </option>
+          <option value="3">fernando Torres </option>
+          <option value="4">Marília Fernandes </option>
+         </select>
         </div>
         {/* when user write in password input box ,
                   handlePasswordChange() function will be called.*/}
