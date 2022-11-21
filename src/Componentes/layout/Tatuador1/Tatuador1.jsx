@@ -99,7 +99,11 @@ function Tatuador1() {
                         </div>
                         <div className='bio'>
                     <h1>ETERNIZE SUAS IDEIAS</h1>
-                    <h4>27 anos, nascida em CG, sempre se interessou pelo mundo da arte, mas foi em 2017 que fez a melhor escolha de sua vida, comprou sua primeira máquina de tatuagem. Seus principal estilo é o geométrico.</h4>
+                    <h4>Gabi é formada em estética, e sua vontade de ajudar as pessoas a recuperar a autoestima foi o que a levou a fundar a Wolf Tattoo Studios.
+                        Especialista em em tatuar cicatrizes, Gabi tem a missão de ressignificar marcas que são dolorosas as pessoas e transformá-las de forma positiva. 
+                        Esse tipo de de trabalho exige um grande dominío das técnicas, além de talento já que cicatrizes apresentam um outro tipo de pele, que recebe a tintura de forma diferente. 
+                        A Woolf Tatto Studios surgiu  para trazer um sorriso ao rosto das pessoas, independente do motivo para fazer uma arte. 
+                        Seus principal estilo é o geométrico.</h4>
                 </div>
                 <h2 className='title' id='artes'>Portifólio</h2>
                 <div className='games'>
