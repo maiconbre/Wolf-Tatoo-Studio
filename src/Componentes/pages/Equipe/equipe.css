@@ -1,9 +1,26 @@
+.texto{
+    color: rgba(233, 228, 227, 0.692);
+}
+.texto2{
+    color: rgba(233, 228, 227, 0.692);
+}
+.texto3{
+    color: rgba(233, 228, 227, 0.692);
+}
+.texto4{
+    color: rgba(233, 228, 227, 0.692);
+}
+.texto5{
+    color: rgba(233, 228, 227, 0.692);
+}
+
 .card1 {
     box-shadow: 0 4px 8px 0 rgba(236, 8, 8, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
+    background-color: rgba(172, 24, 24, 0.295);
   }
   
   button {
@@ -26,6 +43,7 @@
     margin: auto;
     text-align: center;
     font-family: arial;
+    background-color: rgba(172, 24, 24, 0.295);
   }
   
   .title {
@@ -53,6 +71,7 @@
     margin: auto;
     text-align: center;
     font-family: arial;
+    background-color: rgba(172, 24, 24, 0.295);
   }
  
   
@@ -77,6 +96,7 @@
     margin: auto;
     text-align: center;
     font-family: arial;
+    background-color: rgba(172, 24, 24, 0.295);
   }
   
   
@@ -101,6 +121,7 @@
     margin: auto;
     text-align: center;
     font-family: arial;
+    background-color: rgba(172, 24, 24, 0.295);
   }
   
  
