@@ -18,8 +18,7 @@ $ git clone <https://github.com/maiconbre/Wolf-Tattoo-Studio>
 $ cd Wolf-Tattoo-Studio
 
 # Instale as dependências
-$ npm install reactstrap react react-dom
-$ npm install react-router-dom@6
+$ npm install reactstrap react react-router-dom@6
 
 # Execute a aplicação 
 $ npm run dev
