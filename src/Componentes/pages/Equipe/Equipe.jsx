@@ -29,7 +29,7 @@ export const Equipe = () => {
           <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/kezia.jfif" width="300" height="200" />
             <Card.Body><div className="texto">
-              <Card.Title><strong>Kesia</strong></Card.Title>
+              <Card.Title>Kesia</Card.Title>
               <Card.Text>
                 <i>Gestora de Enganjamento</i><br></br>
 
@@ -42,7 +42,7 @@ export const Equipe = () => {
         <div className="card2">
           <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/maicon.jfif" width="300" height="200" />
-            <Card.Body><div className="texto2">
+            <Card.Body><div className="texto">
               <Card.Title>Maicon</Card.Title>
               <Card.Text>
                 <i> Co-Facilitador</i><br></br>
@@ -52,9 +52,22 @@ export const Equipe = () => {
           </Card>
         </div>
         <div className="card3">
-          <Card style={{ width: '20rem' }}>
+        <Card style={{ width: '20rem' }}>
+          <Card.Img variant="top" src="/src/Componentes/pages/img/bernardo.jfif" width="300" height="200" />
+          <Card.Body><div className="texto">
+            <Card.Title><i>Bernardo</i></Card.Title>
+            <Card.Text>
+              <i>Gestora de Conhecimento</i><br></br>
+            </Card.Text></div>
+            <Button variant="primary">Contato</Button>
+          </Card.Body>
+        </Card></div>
+      </div>
+      <div className='cards1'>
+      <div className="card4">
+      <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src="/src/Componentes/pages/img/tamires.jfif" width="300" height="200" />
-            <Card.Body><div className="texto3">
+            <Card.Body><div className="texto">
               <Card.Title>Tamires</Card.Title>
               <Card.Text>
                 <i>Colaboradora l</i> <br></br>
@@ -62,29 +75,18 @@ export const Equipe = () => {
               <Button variant="primary">Contato</Button>
             </Card.Body>
           </Card></div>
-        <div className="card4">
-          <Card style={{ width: '20rem' }}>
-            <Card.Img variant="top" src="/src/Componentes/pages/img/bernardo.jfif" width="300" height="200" />
-            <Card.Body><div className="texto4">
-              <Card.Title><i>Bernardo</i></Card.Title>
-              <Card.Text>
-                <i>Gestora de Conhecimento</i><br></br>
-              </Card.Text></div>
-              <Button variant="primary">Contato</Button>
-            </Card.Body>
-          </Card></div>
-        <div className="card5">
-          <Card style={{ width: '20rem' }}>
-            <Card.Img variant="top" src="/src/Componentes/pages/img/grazi.jpg" width="300" height="200" />
-            <Card.Body><div className="texto5">
-              <Card.Title><i>Grazi</i></Card.Title>
-              <Card.Text>
-                Colaboradora ll<br></br>
-              </Card.Text></div>
-              <Button variant="primary">Contato</Button>
-            </Card.Body>
-          </Card>
-        </div>
+      <div className="card5">
+        <Card style={{ width: '20rem' }}>
+          <Card.Img variant="top" src="/src/Componentes/pages/img/grazi.jpg" width="300" height="200" />
+          <Card.Body><div className="texto">
+            <Card.Title><i>Grazi</i></Card.Title>
+            <Card.Text>
+              Colaboradora ll<br></br>
+            </Card.Text></div>
+            <Button variant="primary">Contato</Button>
+          </Card.Body>
+        </Card>
+      </div>
       </div>
       <Footer />
     </div>

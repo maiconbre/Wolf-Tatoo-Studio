@@ -22,8 +22,8 @@ const Footer = props => {
         </div>
         <div className='contact-list' >
           <h5><i className='fa fa-phone w3-xlarge w3-text-light-grey'></i> Telefone</h5>
-          <p>  (21)9857-6781</p>
-          <p>(21)9144-2591</p>
+          <p>  (21)98757-6781</p>
+          <p>(21)98744-2591</p>
         </div>
       </div>
     </div>

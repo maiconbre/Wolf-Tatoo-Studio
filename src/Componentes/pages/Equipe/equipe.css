@@ -1,23 +1,20 @@
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
 .texto {
-    color: rgba(233, 228, 227, 0.692);
+    color: rgba(233, 228, 227, 0.877);
 }
-
-.texto2 {
-    color: rgba(233, 228, 227, 0.692);
-}
-
-.texto3 {
-    color: rgba(233, 228, 227, 0.692);
-}
-
-.texto4 {
-    color: rgba(233, 228, 227, 0.692);
-}
-
-.texto5 {
-    color: rgba(233, 228, 227, 0.692);
-}
-
 .inicio {
     font-family: 'Reggae One';
     font-size: 18px;
@@ -36,96 +33,35 @@
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: 'Reggae One';
     background-color: rgba(172, 24, 24, 0.295);
 }
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
 
 .card2 {
     box-shadow: 0 4px 8px 0 rgba(236, 8, 8, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: 'Reggae One';
     background-color: rgba(172, 24, 24, 0.295);
 }
-
-
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
 
 .card3 {
     box-shadow: 0 4px 8px 0 rgba(236, 8, 8, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: 'Reggae One';
     background-color: rgba(172, 24, 24, 0.295);
 }
-
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
-
 
 .card4 {
     box-shadow: 0 4px 8px 0 rgba(236, 8, 8, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: 'Reggae One';
     background-color: rgba(172, 24, 24, 0.295);
-}
-
-
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
 }
 
 
@@ -134,27 +70,19 @@ button {
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: 'Reggae One';
     background-color: rgba(172, 24, 24, 0.295);
-}
-
-
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
 }
 
 .cards {
     display: flex;
+    margin-inline: 50px;
+    margin-top: 10%;
+
+}
+.cards1 {
+    display: flex;
+    margin-inline: 200px;
     margin-top: 10%;
 
 }
