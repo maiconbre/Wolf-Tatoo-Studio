@@ -46,7 +46,6 @@ function Tatuador1() {
                     <img src='https://www.guiadasemana.com.br/contentFiles/image/2018/08/FEA/galeria/37265_w840h525_1533590977aquarela.jpg' alt='Aquarela' />
                     <h3>Aquarela</h3>
                 </div>
-
                 <br />
 
             </div>

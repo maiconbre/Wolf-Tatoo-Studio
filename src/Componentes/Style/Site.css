@@ -219,10 +219,11 @@ h3 {
 }
 
 h2.title {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 30px;
     font-family: 'Reggae One';
-    text-shadow: 1px 1px 30px #ff004ca9;
+    text-shadow: 2px 2px 20px #FF004C;
+    color: white;
 }
 
 h2.badge {
@@ -232,7 +233,7 @@ h2.badge {
 }
 
 h4 {
-    font-weight: 700;
+    font-family: 'Reggae One';
 }
 
 .bio {
