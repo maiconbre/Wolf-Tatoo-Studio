@@ -22,7 +22,10 @@ function Tatuador1() {
                 </div>
                 <div className='bio'>
                     <h1>ETERNIZE SUAS IDEIAS</h1>
-                    <h4>João de 33 anos especialista há 15 anos em realismo, blackWork e old school. Ele iniciou sua carreira artística em 2001, quando cursou desenho artístico e aerografia. Esse foi o start para que em alguns anos mais tarde entrase para o universo das tatuagens </h4>
+                    <h4>João é carioca, formado em desing. Desde criança era apaixonado por tatuagem, principalmente pelas várias possibilidades de pigmentação e cores. 
+                        Pela falta de referências decidiu se especializar em trabalhos em pele negra trazendo um ambiente mais inclusivo, e elevando a autoestima das pessoas 
+                        que encontram na Wolf Tatto Studio um ambiente acolhedor para todos. 
+                        É especialista há 15 anos em realismo, blackWork e old school. Ele iniciou sua carreira artística em 2001, quando cursou desenho artístico e aerografia. Esse foi o start para que em alguns anos mais tarde entrase para o universo das tatuagens </h4>
                 </div>
             </div>
             
