@@ -22,7 +22,10 @@ function Tatuador1() {
                 </div>
                 <div className='bio'>
                     <h1>ETERNIZE SUAS IDEIAS</h1>
-                    <h4>João de 33 anos especialista há 15 anos em realismo, blackWork e old school. Ele iniciou sua carreira artística em 2001, quando cursou desenho artístico e aerografia. Esse foi o start para que em alguns anos mais tarde entrase para o universo das tatuagens </h4>
+                    <h4>João é carioca, formado em desing. Desde criança era apaixonado por tatuagem, principalmente pelas várias possibilidades de pigmentação e cores. 
+                        Pela falta de referências decidiu se especializar em trabalhos em pele negra trazendo um ambiente mais inclusivo, e elevando a autoestima das pessoas 
+                        que encontram na Wolf Tattoo Studio um ambiente acolhedor para todos. 
+                        É especialista há 15 anos em realismo, blackWork e old school. Ele iniciou sua carreira artística em 2001, quando cursou desenho artístico e aerografia. Esse foi o start para que em alguns anos mais tarde entrase para o universo das tatuagens </h4>
                 </div>
             </div>
             
@@ -66,7 +69,12 @@ function Tatuador1() {
                         </div>
                         <div className='bio'>
                     <h1>ETERNIZE SUAS IDEIAS</h1>
-                    <h4>Bruno sempre demonstrou habilidades com arte e apreço por tatuagens, fez sua primeira tattoo aos 18 anos, desde então seu interesse por este universo cresceu cada vez mais. Com ideias e princípios underground e alternativas, foi conquistando seu espaço com seu estilo próprio de tatuagens, sendo elas maori, aquarela, sem contorno.</h4>
+                    <h4>Historiador por formação, Bruno descobriu na tatuagem uma forma de eternizar e  por em prática todo o seu amor por história. 
+                        Começou com alguns desenhos simples, rabiscos e logo descobriu que realmente levava jeito pra coisa! Especialista em tatuagens étnicas, domina os mais variados
+                        estilos como Maori, Oriental e tem um amplo conhecimento de várias culturas.
+                        "Muitas pessoas se tatuam buscando significados ou eternizar momentos para o futuro. A tatuagem está presente na história da humanidade
+                        como forma de expressão, e eu percebi que havia um nicho de pessoas que queria se conectar mais com sua ancestralidade". 
+                        Com ideias e princípios underground e alternativas, foi conquistando seu espaço com seu estilo próprio de tatuagens, sendo elas maori, aquarela, sem contorno.</h4>
                 </div>
                 <h2 className='title' id='artes'>Portifólio</h2>
                 <div className='games'>
@@ -99,7 +107,11 @@ function Tatuador1() {
                         </div>
                         <div className='bio'>
                     <h1>ETERNIZE SUAS IDEIAS</h1>
-                    <h4>27 anos, nascida em CG, sempre se interessou pelo mundo da arte, mas foi em 2017 que fez a melhor escolha de sua vida, comprou sua primeira máquina de tatuagem. Seus principal estilo é o geométrico.</h4>
+                    <h4>Gabi é formada em estética, e sua vontade de ajudar as pessoas a recuperar a autoestima foi o que a levou a fundar a Wolf Tattoo Studios.
+                        Especialista em em tatuar cicatrizes, Gabi tem a missão de ressignificar marcas que são dolorosas as pessoas e transformá-las de forma positiva. 
+                        Esse tipo de de trabalho exige um grande dominío das técnicas, além de talento já que cicatrizes apresentam um outro tipo de pele, que recebe a tintura de forma diferente. 
+                        A Woolf Tatto Studios surgiu  para trazer um sorriso ao rosto das pessoas, independente do motivo para fazer uma arte. 
+                        Seus principal estilo é o geométrico.</h4>
                 </div>
                 <h2 className='title' id='artes'>Portifólio</h2>
                 <div className='games'>
