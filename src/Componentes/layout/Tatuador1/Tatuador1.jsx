@@ -91,7 +91,7 @@ function Tatuador1() {
                 </div>
             </div>
             <br />
-            <h2 className='title'>Marilia</h2>
+            <h2 className='title'>Brenda</h2>
             <div className='game-store'>
                 <div className='game-store-list'>
                     <div className='game-image'>
@@ -101,8 +101,8 @@ function Tatuador1() {
                 </div>
             </div>
             <div className='bio'>
-                <h4>Marilia é formada em estética, e sua vontade de ajudar as pessoas a recuperar a autoestima foi o que a levou a fundar a Wolf Tattoo Studios.
-                    <br />Especialista em em tatuar cicatrizes, Gabi tem a missão de ressignificar marcas que são dolorosas as pessoas e transformá-las de forma positiva.
+                <h4>Brenda é formada em estética, e sua vontade de ajudar as pessoas a recuperar a autoestima foi o que a levou a fundar a Wolf Tattoo Studios.
+                    <br />Especialista em em tatuar cicatrizes, Brenda tem a missão de ressignificar marcas que são dolorosas as pessoas e transformá-las de forma positiva.
                     <br />Esse tipo de de trabalho exige um grande dominío das técnicas, além de talento já que cicatrizes apresentam um outro tipo de pele, que recebe a tintura de forma diferente.
                     <br />A Woolf Tatto Studios surgiu  para trazer um sorriso ao rosto das pessoas, independente do motivo para fazer uma arte.
                     Seus principal estilo é o geométrico.</h4>

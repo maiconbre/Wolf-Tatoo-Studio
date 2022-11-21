@@ -3,8 +3,8 @@ import Navbara from '../../layout/Navbar/Navbara'
 import Footer from '../../layout/Footer/Footer';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import '../../Style/Site.css'
-import './equipe.css'
+import '../../Style/Site.css';
+import './equipe.css';
 
 export const Equipe = () => {
   return (

@@ -76,13 +76,13 @@ button {
 
 .cards {
     display: flex;
-    margin-inline: 50px;
+    
     margin-top: 10%;
 
 }
 .cards1 {
     display: flex;
-    margin-inline: 200px;
+    margin-inline: 150px;
     margin-top: 10%;
 
 }
