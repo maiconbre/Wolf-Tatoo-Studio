@@ -47,6 +47,7 @@
           </label>
           <input type="text" placeholder='Estilo da tatuagem'/>
         </div>
+        <br></br>
         <div>
         <button type="submit" value="Enviar agendamento">Enviar agendamento</button>
         </div>
