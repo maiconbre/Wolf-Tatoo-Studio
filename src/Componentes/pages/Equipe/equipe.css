@@ -96,7 +96,7 @@
   
 
 .card5 {
-    box-shadow: 0 4px 8px 0 rgba(236, 8, 8, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(236, 6, 6, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
@@ -120,5 +120,6 @@
   
 .cards{
     display: flex;
-    
+    margin-top: 9%;
+  
 }
