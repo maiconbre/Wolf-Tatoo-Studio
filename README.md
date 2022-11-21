@@ -8,7 +8,7 @@ Exibe as informações do estúdio e contém um link para o formulário de agend
 No formulário, o usuário pode preencher os seus dados e agendar sua tatuagem. 
 
 
-### 🎲 Iniciando o Projeto Local
+### 🎲 Iniciando o Projeto
 
 ```bash
 # Clone o repositório
