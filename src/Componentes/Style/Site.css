@@ -189,13 +189,13 @@ h3 {
 }
 
 .game-image img {
-    width: 117%;
-    height: 160%;
+    width: 170%;
+    height: 173%;
     object-fit: cover;
 }
 
 .game-store-list {
-    width: 350px;
+    width: 500px;
     height: 300px;
     margin: 20px;
     overflow: hidden;
@@ -204,7 +204,7 @@ h3 {
 
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border-bottom: 15px solid #FF004C;
+    border: 1px solid #FF004C;
     color: #FF004C;
     font-weight: 700;
 

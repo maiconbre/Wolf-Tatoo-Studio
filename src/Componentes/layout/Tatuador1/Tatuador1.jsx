@@ -26,7 +26,6 @@ function Tatuador1() {
                     </div>
                 </div>
             </div>
-            <h2 className='title' id='artes'>Portifólio</h2>
             <div className='games'>
                 <div className='game-list'>
                     <img src='https://www.guiadasemana.com.br/contentFiles/image/2018/08/FEA/galeria/37265_w840h525_1533590127old-school.jpg' alt='old school' />
@@ -46,6 +45,10 @@ function Tatuador1() {
                     <img src='https://www.guiadasemana.com.br/contentFiles/image/2018/08/FEA/galeria/37265_w840h525_1533590977aquarela.jpg' alt='Aquarela' />
                     <h3>Aquarela</h3>
                 </div>
+                <div className='game-list'>
+                    <img src='https://www.guiadasemana.com.br/contentFiles/image/2018/08/FEA/galeria/37265_w840h525_1533591561geometrica.jpg' />
+                    <h3>Geometrico</h3>
+                </div>
                 <br />
 
             </div>
@@ -58,11 +61,7 @@ function Tatuador1() {
                         <div className='game-image'>
                             <img src='https://img.freepik.com/fotos-gratis/retrato-de-homem-serio-e-barbudo-em-oculos-escuros-e-chapeu-de-cilindro_613910-1612.jpg?w=996&t=st=1669038734~exp=1669039334~hmac=0ee3165dd312ed4140992115896acaa52d15468f6f03fdc889841c0443d72fb9' />
                         </div>
-                        <div className='store-text-description'>
-                            <h4>São Paulo</h4>
-                            nv: 10 anos
-                            <small>Maori, Aquarela, Sem contorno</small>
-                        </div>
+                        
                     </div>
 
                 </div>
@@ -102,7 +101,6 @@ function Tatuador1() {
                 </div>
             </div>
             <div className='bio'>
-                <h1>ETERNIZE SUAS IDEIAS</h1>
                 <h4>Gabi é formada em estética, e sua vontade de ajudar as pessoas a recuperar a autoestima foi o que a levou a fundar a Wolf Tattoo Studios.
                     <br />Especialista em em tatuar cicatrizes, Gabi tem a missão de ressignificar marcas que são dolorosas as pessoas e transformá-las de forma positiva.
                     <br />Esse tipo de de trabalho exige um grande dominío das técnicas, além de talento já que cicatrizes apresentam um outro tipo de pele, que recebe a tintura de forma diferente.
@@ -110,10 +108,6 @@ function Tatuador1() {
                     Seus principal estilo é o geométrico.</h4>
             </div>
             <div className='games'>
-                <div className='game-list'>
-                    <img src='https://www.guiadasemana.com.br/contentFiles/image/2018/08/FEA/galeria/37265_w840h525_1533591561geometrica.jpg' />
-                    <h3>Geometrico</h3>
-                </div>
                 <div className='game-list'>
                     <img src='https://fotostatuagens.com/wp-content/uploads/2018/04/tattoo-geometrica.jpg' />
                     <h3>Geometrico</h3>
