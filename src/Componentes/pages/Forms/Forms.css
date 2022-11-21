@@ -2,16 +2,44 @@
 
 .forms_container h1{
    display: flex !important;
-   justify-content: space-evenly !important;
+   justify-content: center !important;
    color: #FF004C;
    font-size: 50px !important;
    background-color: #000015;
    height: 50px;
    font-family: 'Rubik Glitch';
+
 }
 .forms_container label{
    color: #FF004C;
    font-family: 'Rubik Glitch';
    display: flex !important;
-   justify-content:first baseline !important;
+   justify-content:center;
+   font-size:large;
 }
+ .forms_container input{
+   border-radius: 100px;
+   text-align: center;
+   display: flex;
+   height: 50px;
+   width: 100%
+   
+ }
+
+ .forms_container select{
+   border-radius: 100px;
+   text-align: center;
+   display: flex;
+   height: 50px;
+   width: 100%
+   
+ }
+ .forms_container button{
+   border-radius: 100px;
+   text-align: center;
+   background-color: white;
+   height: 50px;
+   width:100%;
+   color: #FF004C;
+   font-family: 'Rubik Glitch';
+ }

@@ -9,7 +9,7 @@ function Tatuador1() {
 
             <div className='tatuador'>
                 <br />
-                <h2 className='title'>Joao </h2>
+                <h2 className='title'>Fernando </h2>
                 <div className='store' id='shop'>
                     <div className='game-store'>
                         <div className='game-store-list'>
@@ -19,7 +19,7 @@ function Tatuador1() {
                         </div>
                     </div>
                     <div className='bio'>
-                        <h4>João é carioca, formado em desing. Desde criança era apaixonado por tatuagem, principalmente pelas várias possibilidades de pigmentação e cores.
+                        <h4>Fernando é carioca, formado em desing. Desde criança era apaixonado por tatuagem, principalmente pelas várias possibilidades de pigmentação e cores.
                             <br />Pela falta de referências decidiu se especializar em trabalhos em pele negra trazendo um ambiente mais inclusivo, e elevando a autoestima das pessoas
                             que encontram na Wolf Tatto Studio um ambiente acolhedor para todos.
                             <br />É especialista há 15 anos em realismo, blackWork e old school. Ele iniciou sua carreira artística em 2001, quando cursou desenho artístico e aerografia. Esse foi o start para que em alguns anos mais tarde entrase para o universo das tatuagens </h4>
@@ -54,7 +54,7 @@ function Tatuador1() {
             </div>
             <div className='tatuador'>
                 <br />
-                <h2 className='title'>Bruno</h2>
+                <h2 className='title'>Benicio</h2>
                 <div className='store' id='shop'></div>
                 <div className='game-store'>
                     <div className='game-store-list'>
@@ -66,7 +66,7 @@ function Tatuador1() {
 
                 </div>
                 <div className='bio'>
-                    <h4>Historiador por formação, Bruno descobriu na tatuagem uma forma de eternizar e  por em prática todo o seu amor por história.
+                    <h4>Historiador por formação, Benicio descobriu na tatuagem uma forma de eternizar e  por em prática todo o seu amor por história.
                         <br />Começou com alguns desenhos simples, rabiscos e logo descobriu que realmente levava jeito pra coisa! Especialista em tatuagens étnicas, domina os mais variados
                         estilos como Maori, Oriental e tem um amplo conhecimento de várias culturas.
                         <br />"Muitas pessoas se tatuam buscando significados ou eternizar momentos para o futuro. A tatuagem está presente na história da humanidade
@@ -91,7 +91,7 @@ function Tatuador1() {
                 </div>
             </div>
             <br />
-            <h2 className='title'>Gabi</h2>
+            <h2 className='title'>Marilia</h2>
             <div className='game-store'>
                 <div className='game-store-list'>
                     <div className='game-image'>
@@ -101,7 +101,7 @@ function Tatuador1() {
                 </div>
             </div>
             <div className='bio'>
-                <h4>Gabi é formada em estética, e sua vontade de ajudar as pessoas a recuperar a autoestima foi o que a levou a fundar a Wolf Tattoo Studios.
+                <h4>Marilia é formada em estética, e sua vontade de ajudar as pessoas a recuperar a autoestima foi o que a levou a fundar a Wolf Tattoo Studios.
                     <br />Especialista em em tatuar cicatrizes, Gabi tem a missão de ressignificar marcas que são dolorosas as pessoas e transformá-las de forma positiva.
                     <br />Esse tipo de de trabalho exige um grande dominío das técnicas, além de talento já que cicatrizes apresentam um outro tipo de pele, que recebe a tintura de forma diferente.
                     <br />A Woolf Tatto Studios surgiu  para trazer um sorriso ao rosto das pessoas, independente do motivo para fazer uma arte.
