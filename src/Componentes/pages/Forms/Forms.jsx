@@ -1,13 +1,17 @@
  
  import  '../Forms/Forms.css'
+import App from './App';
  
- const API = "https://json-server-onqo.onrender.com/";
+ 
+
 
  function Forms() {
 
   return(
     <div className='forms_container'>
       <h1>Faça seu agendamento</h1>
+      <hr/>
+      <App />
       <br></br>
       <hr></hr>
       <form>
@@ -38,6 +42,7 @@
           <option id='1'>Brenda Palácios </option>
           <option id='2'>Benicio Braga</option>
           <option id='3'>Fernando Torres</option>
+          <option id='4'>Marilia Fernandes</option>
         </select>
         </div>
         <div>

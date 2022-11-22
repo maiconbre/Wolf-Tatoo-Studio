@@ -43,3 +43,25 @@
    color: #FF004C;
    font-family: 'Rubik Glitch';
  }
+
+ .forms_container h2{
+  display: flex !important;
+  justify-content: center !important;
+  color: #FF004C;
+  font-size: 25px !important;
+  background-color: #000015;
+  height: 25px;
+  font-family: 'Rubik Glitch';
+
+}
+
+.forms_container p{
+  display: flex !important;
+  justify-content: center !important;
+  color: #FF004C;
+  font-size: 25px !important;
+  background-color: #000015;
+  height: 25px;
+  font-family: 'Rubik Glitch';
+
+}
