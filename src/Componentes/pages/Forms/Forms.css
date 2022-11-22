@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Rubik+Glitch&display=swap');
 
+<<<<<<< Updated upstream
+=======
+
+.forms_container {
+  margin-top: 50px;
+  margin-inline: 400px;
+  align-items: center;
+  
+}
+>>>>>>> Stashed changes
 .forms_container h1{
    display: flex !important;
    justify-content: center !important;
@@ -7,13 +17,18 @@
    font-size: 50px !important;
    background-color: #000015;
    height: 50px;
-   font-family: 'Rubik Glitch';
+   margin-top: 50px;
+   font-family: 'Reggae One';
 
+}
+h1.title {
+  margin-bottom: 30px;
+  font-size: 35px !important;
 }
 .forms_container label{
    color: #FF004C;
    font-family: 'Rubik Glitch';
-   display: flex !important;
+   display: flex ;
    justify-content:center;
    font-size:large;
 }

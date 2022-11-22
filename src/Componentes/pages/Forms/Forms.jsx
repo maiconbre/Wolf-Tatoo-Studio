@@ -19,6 +19,8 @@ import App from '../../layout/Api/App';
 
       <form>
         <div>
+        <App />
+        <h1 className='title'>Faça seu orçamento</h1>
           <label>
             Nome
           </label>
@@ -56,7 +58,11 @@ import App from '../../layout/Api/App';
         </div>
         <br></br>
         <div>
+<<<<<<< Updated upstream
         <button type="submit" value="Enviar agendamento">Enviar agendamento</button>
+=======
+          <button type="submit" event="submit" value="Enviar agendamento">Enviar agendamento</button>
+>>>>>>> Stashed changes
         </div>
       </form>
     </div>
