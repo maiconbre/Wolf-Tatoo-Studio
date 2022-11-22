@@ -330,6 +330,11 @@ span {
 }
 
 
+.hero {
+    height: 750px !important;
+    ;
+    background-image: url("https://raw.githubusercontent.com/ellenmariadev/tattoo-studio/main/src/images/home-bg.jpg");
+}
 
 
 
@@ -344,6 +349,7 @@ html {
     margin: 0;
     padding: 0;
 }
+
 
 
 
