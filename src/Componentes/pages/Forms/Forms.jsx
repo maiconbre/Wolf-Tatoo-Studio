@@ -1,6 +1,6 @@
  
  import  '../Forms/Forms.css'
-import App from './App';
+import App from '../../layout/Api/App';
  
  
 
@@ -8,12 +8,15 @@ import App from './App';
  function Forms() {
 
   return(
+  
     <div className='forms_container'>
-      <h1>Faça seu agendamento</h1>
-      <hr/>
-      <App />
+     <App />
       <br></br>
       <hr></hr>
+      <h1>Faça seu agendamento</h1>
+      <br></br>
+      <hr></hr>
+
       <form>
         <div>
           <label>

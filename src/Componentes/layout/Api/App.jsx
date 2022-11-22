@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Api from '../../layout/Api/Api'
+import Api from './Api'
 
 class App extends Component{
-
+   
+  
  state ={
         tatuadores:[]
  }
@@ -13,6 +14,8 @@ async componentDidMount(){
     const response = await Api.get('/tatuadores');
     //console.log(response.data);
     this.setState({tatuadores: response.data});
+
+   
     
 }
 
@@ -34,6 +37,8 @@ async componentDidMount(){
                     </li>
                 
                     ))}
+
+                   
             </div>
         )
     }
