@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const Api = axios.create({
-    baseURL: 'https://json-server-onqo.onrender.com/'
+    baseURL: 'https://m3individual.onrender.com/'
 })
 
 export default Api;

@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Rubik+Glitch&display=swap');
 
-<<<<<<< Updated upstream
-=======
 
 .forms_container {
   margin-top: 50px;
-  margin-inline: 400px;
+  margin-inline: 25%;
   align-items: center;
   
 }
->>>>>>> Stashed changes
 .forms_container h1{
    display: flex !important;
    justify-content: center !important;
-   color: #FF004C;
+   color: #ffffff;
+   text-shadow: #FF004C;
    font-size: 50px !important;
    background-color: #000015;
    height: 50px;
@@ -21,7 +19,12 @@
    font-family: 'Reggae One';
 
 }
+h3 {
+  font-family: 'Reggae One';
+  font-size: 150%;
+}
 h1.title {
+  color: aliceblue;
   margin-bottom: 30px;
   font-size: 35px !important;
 }
@@ -60,13 +63,14 @@ h1.title {
  }
 
  .forms_container h2{
+  margin-inline: 24%;
   display: flex !important;
-  
+  text-align: center;
   color: #FF004C;
-  font-size: 25px !important;
-  background-color: #000015;
+  font-size: 40px;
+  text-shadow: 1px 1px 3px rgb(241, 240, 240);
   height: 25px;
-  font-family: 'Rubik Glitch';
+  font-family: 'Reggae One';
 
 }
 

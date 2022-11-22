@@ -10,13 +10,6 @@ import App from '../../layout/Api/App';
   return(
   
     <div className='forms_container'>
-     <App />
-      <br></br>
-      <hr></hr>
-      <h1>Faça seu agendamento</h1>
-      <br></br>
-      <hr></hr>
-
       <form>
         <div>
         <App />
@@ -47,7 +40,6 @@ import App from '../../layout/Api/App';
           <option id='1'>Brenda Palácios </option>
           <option id='2'>Benicio Braga</option>
           <option id='3'>Fernando Torres</option>
-          <option id='4'>Marilia Fernandes</option>
         </select>
         </div>
         <div>
@@ -58,11 +50,7 @@ import App from '../../layout/Api/App';
         </div>
         <br></br>
         <div>
-<<<<<<< Updated upstream
         <button type="submit" value="Enviar agendamento">Enviar agendamento</button>
-=======
-          <button type="submit" event="submit" value="Enviar agendamento">Enviar agendamento</button>
->>>>>>> Stashed changes
         </div>
       </form>
     </div>

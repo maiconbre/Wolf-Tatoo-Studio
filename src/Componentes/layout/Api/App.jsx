@@ -25,15 +25,17 @@ async componentDidMount(){
 
         return(
             <div>
-                <h1>Lista de Tatuadores</h1>
+                <h1>Profissionais</h1>
                 {console.log(tatuadores)}
                 {tatuadores.map(tatuadores => (
                     <li key={tatuadores}>
                        <h2> {tatuadores.nome} </h2>
                         <br></br>
-                        <p>
+                        <h3>
                         {tatuadores.estilo}
-                        </p>
+                        <br/>
+                        {tatuadores.experiencia}
+                        </h3>
                     </li>
                 
                     ))}
