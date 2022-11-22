@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Rubik+Glitch&display=swap');
 
+
+.forms_container {
+  display: flex;
+  align-items: center;
+  
+}
 .forms_container h1{
    display: flex !important;
    justify-content: center !important;
